@@ -12,48 +12,46 @@
 
         <div class="container">
             <div class="row g-2">
-                <form class="row g-2">
-                    <fildset class="row g-2">
-                        <legend>Cômodo</legend>
-                        <div class="col-md-6">
-                            <label for="comodo-largura" class="form-label">Largura (m)</label>
-                            <input type="number" id="comodo-largura" class="form-control" required>
-                        </div>
+                <fildset class="row g-2">
+                    <legend>Cômodo</legend>
+                    <div class="col-md-6">
+                        <label for="comodo-largura" class="form-label">Largura (m)</label>
+                        <input type="number" id="comodo-largura" class="form-control" required>
+                    </div>
     
-                        <div class="col-md-6">
-                            <label for="comodo-comprimento" class="form-label">Comprimento (m)</label>
-                            <input type="number" id="comodo-comprimento" class="form-control" required>
-                        </div>
-                    </fildset>
+                    <div class="col-md-6">
+                        <label for="comodo-comprimento" class="form-label">Comprimento (m)</label>
+                        <input type="number" id="comodo-comprimento" class="form-control" required>
+                    </div>
+                </fildset>
                     
-                    <fildset class="row g-2">
-                        <legend>Piso</legend>
-                        <div class="col-md-6">
-                            <label for="piso-largura" class="form-label">Largura (m)</label>
-                            <input type="number" id="piso-largura" class="form-control" required>
-                        </div>
-    
-                        <div class="col-md-6">
-                            <label for="piso-comprimento" class="form-label">Comprimento (m)</label>
-                            <input type="number" id="piso-comprimento" class="form-control" required>
-                        </div>
-                    </fildset>
-    
-                    <div class="col-md-12">
-                        <label for="margem" class="form-label">Margem(%)</label>
-                        <input type="number" id="margem" class="form-control" required>
+                <fildset class="row g-2">
+                    <legend>Piso</legend>
+                    <div class="col-md-6">
+                        <label for="piso-largura" class="form-label">Largura (m)</label>
+                        <input type="number" id="piso-largura" class="form-control" required>
                     </div>
     
-                    <div class="col-md-12">
-                        <button class="btn btn-primary" id="btn-calcular" onclick="processar();">Calcular</button>
+                    <div class="col-md-6">
+                        <label for="piso-comprimento" class="form-label">Comprimento (m)</label>
+                        <input type="number" id="piso-comprimento" class="form-control" required>
                     </div>
+                </fildset>
     
-                    <div class="col-md-12">
-                        <div id="resultado">
+                <div class="col-md-12">
+                    <label for="margem" class="form-label">Margem(%)</label>
+                    <input type="number" id="margem" class="form-control" required>
+                </div>
+
+                <div class="col-md-12">
+                    <button class="btn btn-primary" id="btn-calcular" onclick="processar();">Calcular</button>
+                </div>
     
-                        </div>
+                <div class="col-md-12">
+                    <div id="resultado">
+    
                     </div>
-                </form>
+                </div>
             </div>
         </div>
     </main>
